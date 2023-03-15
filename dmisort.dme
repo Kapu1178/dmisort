@@ -1,0 +1,23 @@
+// DM Environment file for dmisort.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "src\dmisort.dm"
+#include "src\world.dm"
+#include "src\timsort\_main.dm"
+#include "src\timsort\cmp.dm"
+#include "src\timsort\interface.dm"
+#include "src\timsort\lists.dm"
+// END_INCLUDE
+
